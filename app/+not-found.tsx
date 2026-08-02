@@ -1,0 +1,1 @@
+import {router} from 'expo-router';import {Button,Empty,Screen} from '@/components/ui';export default function NotFound(){return <Screen title="الصفحة غير موجودة"><Empty title="ما لكينا الصفحة" body="الرابط غير صحيح أو أن المحتوى لم يعد متاحاً."/><Button title="العودة للرئيسية" onPress={()=>router.replace('/home')}/></Screen>}
